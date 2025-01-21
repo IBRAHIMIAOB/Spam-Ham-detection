@@ -83,7 +83,12 @@ def f_score(y_true, y_pred):
 
 #---------------------------------------------------------Project   
 #importing load_data  
-from project2.project2skeleton import load_data
+
+
+
+# from DataBase import load_data
+
+
 #split the data into pair of Text - category for train
 x_train, y_train = load_data("project2/SPAM_training_set")
 #Feeding Data into model
